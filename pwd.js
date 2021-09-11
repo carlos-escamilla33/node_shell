@@ -1,5 +1,5 @@
 const { cwd } = require("process");
 
 module.exports = () => {
-    process.stdout.write(`${cwd()}`)
+    process.stdout.write(`directory: ${cwd()}`)
 }
