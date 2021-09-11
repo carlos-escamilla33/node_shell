@@ -6,7 +6,7 @@ module.exports = () => {
         if (err) {
             throw err;
         } else {
-            process.stdout.write(files.join("\n"))
+            process.stdout.write(`Files: ${files.join("\n")}`);
             process.stdout.write("\nprompt > ");
         }
     })
